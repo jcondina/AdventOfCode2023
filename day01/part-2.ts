@@ -14,7 +14,7 @@ const numbersMap: { [x: string]: string } = {
 };
 
 export function solution(): number {
-	const inputLines = fs.readFileSync("./1-input.txt", "utf8").split("\n");
+	const inputLines = fs.readFileSync("./input.txt", "utf8").split("\n");
 
 	const numbers = inputLines.map((line) => {
 		let firstLineNumber = 0,
