@@ -49,7 +49,5 @@ export function solution(): number {
 		return firstLineNumber * 10 + lastLineNumber;
 	});
 
-	const sum = numbers.reduce((acc, curr) => acc + curr, 0);
-
-	return sum;
+	return numbers.reduce((acc, curr) => acc + curr, 0);
 }

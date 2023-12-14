@@ -8,7 +8,5 @@ export function solution(): number {
 		return Number(digits?.[0]) * 10 + Number(digits?.pop());
 	});
 
-	const sum = numbers.reduce((acc, curr) => acc + curr, 0);
-
-	return sum;
+	return numbers.reduce((acc, curr) => acc + curr, 0);
 }
