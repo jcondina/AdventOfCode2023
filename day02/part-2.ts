@@ -10,7 +10,7 @@ export function solution(): number {
 			blue: 0,
 		};
 
-		const [gameIdString, gameValuesString] = line.split(":");
+		const [, gameValuesString] = line.split(":");
 
 		gameValuesString.split(";").forEach((gameValues) => {
 			gameValues.split(",").forEach((throwValues) => {
